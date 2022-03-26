@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="district.css">
+
+</head>
+<body>
+    <header>
+        <!-- START OF NAVIGATION BAR  -->
+  
+        <nav class="navbar navbar-expand-md navbar-dark bd-navbar bg-success">
+          <div class="container-fluid position-relative">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#bdNavbar"
+              aria-controls="bdNavbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="navbar-collapse collapse" id="bdNavbar">
+              <ul
+                class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0"
+              >
+                <li class="nav-item col-6 col-md-auto">
+                  <a class="nav-link p-2" aria-current="page" href="../index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                  <a class="nav-link p-2 " href="../destination.html"
+                    >Destination</a
+                  >
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                  <a class="nav-link p-2" href="../login.html">Log In</a>
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                  <a class="nav-link p-2" href="../signup.html">Sign Up</a>
+                </li>
+                <li class="nav-item col-7 col-md-auto">
+                  <a class="nav-link p-2 active" href="#">Idukki</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+  
+        <!-- END OF NAVIGATION BAR  -->
+  
+        <!-- START OF CAROUSEL  -->
+        <div class="container-fluid g-0">
+          <div class="row-fluid">
+            <div class="col-12">
+              <section class="banner bg-dark position-relative">
+                <!-- Carousel  -->
+                <div
+                  id="carouselExampleDark"
+                  class="carousel carousel-dark slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div
+                      class="carousel-item mycarousel-zoom active"
+                      data-bs-interval="3000"
+                    >
+                      <!-- change Carousel 1 -->
+                      <img
+                        src="../images/idukki dam.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <div class="carousel-caption d-md-block text-white">
+                        <h2 class="text-end">Idukki</h2>
+                      </div>
+                    </div>
+                    <div
+                      class="carousel-item mycarousel-zoom"
+                      data-bs-interval="3000"
+                    >
+                      <!-- change Carousel 2 -->
+                      <img
+                        src="../images/Eravikulam National Park.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+  
+                      <div class="carousel-caption d-md-block text-white">
+                        <h2 class="text-end">Idukki</h2>
+                      </div>
+                    </div>
+                    <div
+                      class="carousel-item mycarousel-zoom"
+                      data-bs-interval="3000"
+                    >
+                      <!-- change Carousel 3 -->
+                      <img
+                        src="../images/Tea Museum.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+  
+                      <div class="carousel-caption d-md-block text-white">
+                        <h2 class="text-end">Idukki</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+  
+                <img
+                  class="position-absolute top-0 start-0 bg-white rounded"
+                  style="width: 100px"
+                  src="../destination/keralaTourismLogo.png"
+                  alt="logo"
+                />
+              </section>
+              <!-- END OF SECTION -->
+            </div>
+            <!-- END OF COLOUMN  -->
+          </div>
+          <!-- END OF ROW -->
+        </div>
+        <!-- END OF CONTAINER  -->
+      </header>
+      <!-- END OF HEADER -->
+  
+      <!-- START OF MAIN -->
+      <main class="mainClass">
+        <div class="container mt-3">
+          <div class="row bg-warning text-center">
+            <div class="col">
+              <h2>Tourist places</h2>
+              
+            </div>
+          </div>
+          <!-- END OF FIRST ROW  -->
+
+          <p>Idukki district is a densely forested, mountainous region in the south Indian state of Kerala. In the north, Anamudi mountain towers over Eravikulam National Park, where the rare, blue Neelakurinji flower blooms every 12 years. Nearby, Munnar is a hill station known for its sprawling tea plantations and Tea Museum. Farther south is the vast, curved Idukki Dam and Periyar National Park, a tiger and elephant reserve.Idukki is the spice garden of Kerala. With the Sahya ranges occupying most of the geographical area, Idukki is one of the most nature rich areas of Kerala. Idukki is also known as the queen of Kerala. If you are seeking for a fresh air, clean water and simple life, Idukki will be your best choice to live in with family.
+
+
+
+          </p>
+          <h3>Idukki Dam</h3>
+          <p>The Idukki Dam is a double curvature Arch dam constructed across the Periyar River in a narrow gorge between two granite hills locally known as Kuravan and Kurathi in Mariyapuram village in Idukki District in Kerala, India. This dam was constructed along with two other dams at Cheruthoni and Kulamavu. Together, the three dams and Two saddle dams, Kulamavu Saddle Dam and Kulamavu Saddle Dam have created an artificial lake that is 60 km² in area. The stored water is used to produce electricity at the Moolamattom Power house, which is located inside nearby rocky caves.</p>
+          <h3>Eravikulam National park</h3>
+          <p>Eravikulam National Park is a 97 km² national park located along the Western Ghats in the Idukki and Ernakulam districts of Kerala in India. Situated between 10º05'N and 10º20' north, and 77º0' and 77º10' east, it is the first national park in Kerala. Eravikulam National Park is administered by the Kerala Department of Forests and Wildlife, Munnar Wildlife Division, which also runs the nearby Mathikettan Shola National Park, Anamudi Shola National Park, Pambadum Shola National Park, Chinnar Wildlife Sanctuary and the Kurinjimala Sanctuary. </p>
+          <h3>Tea museum</h3>
+          <p>The KDHP Tea Museum is an industry and history museum situated in Munnar, a town in the Idukki district of Kerala in South India. Tata Tea Museum is its official name, but it's also known as Nalluthanni Estate where it is located, or Kannan Devan Hills Plantation Tea Museum.</p>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- START OF COLUMN 1 -->
+  
+            <div class="card-columns">
+              <!-- START OF CARD -->
+              <div class="card mb-3 mt-3">
+                <!-- CHANGE IMAGE SRC-->
+                <img
+                  src="../images/idukki dam.jpg"
+                  class="card-img-top"
+                  alt="Idukki Dam"
+                />
+                <div class="card-body rounded">
+                  <!-- CHANGE CARD TEXT -->
+                  <h5 class="card-title">Idukki Dam</h5>
+                  
+                    
+                    </button>
+                  </div>
+                  <p class="card-text"></p>
+                  <div class="collapse" id="collapseExample11">
+                    
+                  </div>
+                </div>
+              </div>
+              <!-- END OF CARD -->
+  
+              <!-- START OF CARD -->
+              <div class="card mb-3 mt-3">
+                <!-- CHANGE IMAGE SRC-->
+                <img
+                  src="../images/Eravikulam National Park.jpg"
+                  class="card-img-top"
+                  alt="Eravikulam National park"
+                />
+                <div class="card-body rounded">
+                  <!-- CHANGE CARD TEXT -->
+                  <h5 class="card-title">Eravikulam National park</h5>
+                  <div class="d-flex mb-2">
+                    
+                    
+                  
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                  <div class="collapse" id="collapseExample12">
+                    <!-- CHANGE CARD TEXT -->
+                    
+                  </div>
+                </div>
+              </div>
+  
+              
+            </div>
+            <!-- END OF COLUMN 1 -->
+  
+            <!-- START OF COLUMN 2 -->
+  
+            <div class="card-columns">
+              <!-- START OF CARD -->
+              <div class="card mb-3 mt-3">
+                <!-- CHANGE IMAGE SRC-->
+                <img
+                  src="../images/Tea Museum.jpg"
+                  class="card-img-top"
+                  alt="Tea museum"
+                />
+                <div class="card-body rounded">
+                  <!-- CHANGE CARD TEXT -->
+                  <h5 class="card-title">Tea museum</h5>
+                  <div class="d-flex mb-2">
+                   
+                    
+                  </div>
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text"></p>
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                  <div class="collapse" id="collapseExample21">
+                    <!-- CHANGE CARD TEXT -->
+                    
+                  </div>
+                </div>
+              </div>
+              <!-- END OF CARD -->
+  
+              
+              
+  
+              
+            </div>
+            <!-- END OF COLUMN 3 -->
+          </div>
+        </div>
+      </main>
+      <!-- END OF MAIN  -->
+  
+      <footer>
+        <div class="container-fluid">
+          <div class="row bg-dark pb-5">
+            <div class="col-lg-4 d-flex justify-content-center">
+              
+            </div>
+  
+            
+            
+  
+            <div class="col-lg-2 bg-dark me-auto">
+              <div class="justify-content-center">
+                <div class="text-center">
+                  <div>
+                    <p class="h5 text-secondary mt-3">Information</p>
+                  </div>
+                </div>
+                <hr class="bg-secondary" />
+                <div>
+                  <a href="#" class="text-decoration-none">
+                    <label>Contact Us </label>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="text-decoration-none">
+                    <label>Tourist Places in Kerala </label>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="text-decoration-none">
+                    <label>Terms & Conditions </label>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="text-decoration-none">
+                    <label>Privacy Policy </label>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="text-decoration-none">
+                    <label>Contact Us </label>
+                  </a>
+                </div>
+              </div>
+              <hr class="bg-secondary" />
+            </div>
+  
+            <!-- END OF INFORMATION COLUMN  -->
+            
+  
+                
+              </div>
+            </div>
+          </div>
+          <!-- END OF ROW 1 -->
+  
+          <div class="row ps-5 pe-5 bg-dark text-white">
+            <div class="col d-flex justify-content-between">
+              <p class="h6">© 2022 KeralaOrg</p>
+          
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

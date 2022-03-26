@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="district.css">
+
+</head>
+<body>
+    <header>
+        <!-- START OF NAVIGATION BAR  -->
+  
+        <nav class="navbar navbar-expand-md navbar-dark bd-navbar bg-success">
+          <div class="container-fluid position-relative">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#bdNavbar"
+              aria-controls="bdNavbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="navbar-collapse collapse" id="bdNavbar">
+              <ul
+                class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0"
+              >
+                <li class="nav-item col-6 col-md-auto">
+                  <a class="nav-link p-2" aria-current="page" href="../index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                  <a class="nav-link p-2 " href="../destination.html"
+                    >Destination</a
+                  >
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                  <a class="nav-link p-2" href="../login.html">Log In</a>
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                  <a class="nav-link p-2" href="../signup.html">Sign Up</a>
+                </li>
+                <li class="nav-item col-7 col-md-auto">
+                  <a class="nav-link p-2 active" href="#">Alappuzha</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+  
+        <!-- END OF NAVIGATION BAR  -->
+  
+        <!-- START OF CAROUSEL  -->
+        <div class="container-fluid g-0">
+          <div class="row-fluid">
+            <div class="col-12">
+              <section class="banner bg-dark position-relative">
+                <!-- Carousel  -->
+                <div
+                  id="carouselExampleDark"
+                  class="carousel carousel-dark slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div
+                      class="carousel-item mycarousel-zoom active"
+                      data-bs-interval="3000"
+                    >
+                      <!-- change Carousel 1 -->
+                      <img
+                        src="../images/alappuzha beach.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <div class="carousel-caption d-md-block text-white">
+                        <h2 class="text-end">Alappuzha</h2>
+                      </div>
+                    </div>
+                    <div
+                      class="carousel-item mycarousel-zoom"
+                      data-bs-interval="3000"
+                    >
+                      <!-- change Carousel 2 -->
+                      <img
+                        src="../images/alappuzha-lighthouse.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+  
+                      <div class="carousel-caption d-md-block text-white">
+                        <h2 class="text-end">Alappuzha</h2>
+                      </div>
+                    </div>
+                    <div
+                      class="carousel-item mycarousel-zoom"
+                      data-bs-interval="3000"
+                    >
+                      <!-- change Carousel 3 -->
+                      <img
+                        src="../images/pathiramanal.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+  
+                      <div class="carousel-caption d-md-block text-white">
+                        <h2 class="text-end">Alappuzha</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+  
+                <img
+                  class="position-absolute top-0 start-0 bg-white rounded"
+                  style="width: 100px"
+                  src="../destination/keralaTourismLogo.png"
+                  alt="logo"
+                />
+              </section>
+              <!-- END OF SECTION -->
+            </div>
+            <!-- END OF COLOUMN  -->
+          </div>
+          <!-- END OF ROW -->
+        </div>
+        <!-- END OF CONTAINER  -->
+      </header>
+      <!-- END OF HEADER -->
+  
+      <!-- START OF MAIN -->
+      <main class="mainClass">
+        <div class="container mt-3">
+          <div class="row bg-warning text-center">
+            <div class="col">
+              <h2>Tourist places</h2>
+              
+            </div>
+          </div>
+          <!-- END OF FIRST ROW  -->
+
+          <p>Alappuzha district, is one of the 14 districts in the state of Kerala in India. It was formed as Alleppey district on 17 August 1957, the name of the district being changed to Alappuzha in 1990, and is the smallest district in Kerala. Alappuzha, famous for its boat races, beaches, marine products and coir industry, is a world renowned backwater tourist destination of India. Kuttanad, Alappuzha backwaters and Alappuzha beach are the must-see tourist attractions in the district.
+
+          </p>
+          <h3>Alappuzha beach</h3>
+          <p>Alappuzha beach is a popular tourist place and a picnic spot for tourists and locals alike. Alappuzha beach, squashed between the Arabian Sea and the Punnamada backwaters, is one of the most famous tourist attractions in Alappuzha, with its scenic canals, is eminently known as ‘Venice of the East’.  The magnificent beauty of Alleppey India Beach can be best seen in the dense palm groves and beautiful garden on the seashore. The beach is well-known for its vast seashore and a wooden beach bridge, which attracts a huge number of visitors who travel to Alleppey to enjoy the backwaters.</p>
+          <h3>Alappuzha light house</h3>
+          <p>The Alappuzha Lighthouse is situated in the coastal town of Alappuzha, Kerala. It was built in 1862 and is a major tourist attraction. Visitors are allowed between 1500 hours and 1630 hours on every weekday at an admission fee of 20 rupees for Indian citizens and 50 rupees for foreigners. This is the first of its kind in the Arabian sea coast of Kerala.</p>
+          <h3>Pathiramanal island</h3>
+          <p>Pathiramanal is a small island inMuhamma panchayat of Alappuzha district. The name Pathiramanal means 'midnight sand'. The scenic beauty of both sides of the lake as well as that of the island is mind blowing. It is home to many rare varieties of migratory birds from different parts of the world
+
+          </p>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- START OF COLUMN 1 -->
+  
+            <div class="card-columns">
+              <!-- START OF CARD -->
+              <div class="card mb-3 mt-3">
+                <!-- CHANGE IMAGE SRC-->
+                <img
+                  src="../images/alappuzha beach.jpg"
+                  class="card-img-top"
+                  alt="Alappuzha beach"
+                />
+                <div class="card-body rounded">
+                  <!-- CHANGE CARD TEXT -->
+                  <h5 class="card-title">Alappuzha beach</h5>
+                  
+                    
+                    </button>
+                  </div>
+                  <p class="card-text"></p>
+                  <div class="collapse" id="collapseExample11">
+                    
+                  </div>
+                </div>
+              </div>
+              <!-- END OF CARD -->
+  
+              <!-- START OF CARD -->
+              <div class="card mb-3 mt-3">
+                <!-- CHANGE IMAGE SRC-->
+                <img
+                  src="../images/alappuzha-lighthouse.jpg"
+                  class="card-img-top"
+                  alt="Light house"
+                />
+                <div class="card-body rounded">
+                  <!-- CHANGE CARD TEXT -->
+                  <h5 class="card-title">Light house</h5>
+                  <div class="d-flex mb-2">
+                    
+                    
+                  
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                  <div class="collapse" id="collapseExample12">
+                    <!-- CHANGE CARD TEXT -->
+                    
+                  </div>
+                </div>
+              </div>
+  
+              
+            </div>
+            <!-- END OF COLUMN 1 -->
+  
+            <!-- START OF COLUMN 2 -->
+  
+            <div class="card-columns">
+              <!-- START OF CARD -->
+              <div class="card mb-3 mt-3">
+                <!-- CHANGE IMAGE SRC-->
+                <img
+                  src="../images/pathiramanal.jpg"
+                  class="card-img-top"
+                  alt="Pathiramanal Island"
+                />
+                <div class="card-body rounded">
+                  <!-- CHANGE CARD TEXT -->
+                  <h5 class="card-title">Pathiramanal Island</h5>
+                  <div class="d-flex mb-2">
+                   
+                    
+                  </div>
+                  <!-- CHANGE CARD TEXT -->
+                  <p class="card-text"></p>
+                  <!-- CHANGE COLLAPSEEXAMPLE VALUE -->
+                  <div class="collapse" id="collapseExample21">
+                    <!-- CHANGE CARD TEXT -->
+                    
+                  </div>
+                </div>
+              </div>
+              <!-- END OF CARD -->
+  
+              
+              
+  
+              
+            </div>
+            <!-- END OF COLUMN 3 -->
+          </div>
+        </div>
+      </main>
+      <!-- END OF MAIN  -->
+  
+      <footer>
+        <div class="container-fluid">
+          <div class="row bg-dark pb-5">
+            <div class="col-lg-4 d-flex justify-content-center">
+              
+            </div>
+  
+            
+            
+  
+            <div class="col-lg-2 bg-dark me-auto">
+              <div class="justify-content-center">
+                <div class="text-center">
+                  <div>
+                    <p class="h5 text-secondary mt-3">Information</p>
+                  </div>
+                </div>
+                <hr class="bg-secondary" />
+                <div>
+                  <a href="#" class="text-decoration-none">
+                    <label>Contact Us </label>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="text-decoration-none">
+                    <label>Tourist Places in Kerala </label>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="text-decoration-none">
+                    <label>Terms & Conditions </label>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="text-decoration-none">
+                    <label>Privacy Policy </label>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="text-decoration-none">
+                    <label>Contact Us </label>
+                  </a>
+                </div>
+              </div>
+              <hr class="bg-secondary" />
+            </div>
+  
+            <!-- END OF INFORMATION COLUMN  -->
+            
+  
+                
+              </div>
+            </div>
+          </div>
+          <!-- END OF ROW 1 -->
+  
+          <div class="row ps-5 pe-5 bg-dark text-white">
+            <div class="col d-flex justify-content-between">
+              <p class="h6">© 2022 KeralaOrg</p>
+          
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
